@@ -36,7 +36,7 @@ p {
 }
 
 h2 {
-  font-size: 90px;
+  font-size: 80px;
   line-height: 100px;
   color: white;
   text-transform: uppercase;
@@ -89,6 +89,7 @@ h2 {
 }
 .menu a img {
   width: 200px;
+  mix-blend-mode: color-burn;
 }
 
 #menu {
