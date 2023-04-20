@@ -406,6 +406,7 @@ h2{
     h2{
         font-size: 100px;
         text-align: center;
+        text-decoration: underline;
     }
 }
 
@@ -463,6 +464,8 @@ h2{
     background-size: cover;
 }
 .img3{
+    width: 500px;
+    height: 600px;
     background-image: url(../images/imagen7.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -538,6 +541,7 @@ h2{
     p{
         margin: 0;
         font-size: 15px;
+        color: #696969;
     }
 }
 .imagen-promo{
@@ -877,14 +881,15 @@ h2{
         display: flex;
     }
     .texto-promo{
-        padding: 15px 25px;
+        padding: 15px 20px;
         h5{
             font-family: $font1;
             font-size: 22px;
+            margin-bottom: 0;
         }
         p{
             margin: 0;
-            font-size: 7.5px;
+            font-size: 8px;
         }
     }
     .imagen-promo{
