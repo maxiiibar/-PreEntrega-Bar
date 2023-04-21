@@ -461,14 +461,18 @@ h2 {
 }
 
 .img1 {
-  background-image: url(../images/dibu-martinez.png);
+  width: 500px;
+  height: 600px;
+  background-image: url(../images/hbsport-inauguracion.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img2 {
-  background-image: url(../images/dibu-martinez.png);
+  width: 500px;
+  height: 550px;
+  background-image: url(../images/hbsport-arias.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -477,7 +481,7 @@ h2 {
 .img3 {
   width: 500px;
   height: 600px;
-  background-image: url(../images/imagen7.jpg);
+  background-image: url(../images/guantes-dibu.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -576,10 +580,6 @@ h2 {
 }
 
 @media only screen and (max-width: 1500px) {
-  .imagen {
-    width: 500px;
-    height: 400px;
-  }
   .content-tarjeta {
     padding: 0px 100px 0px 150px;
   }
@@ -608,6 +608,12 @@ h2 {
   .content-tarjeta-1 p {
     margin: 20px 0;
     font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  .brand-productos {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 1400px) {
